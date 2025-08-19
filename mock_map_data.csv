@@ -1,0 +1,4 @@
+country_label,Exports,Imports,Goods,Services,lat,lon,tooltip_info
+Colombia,150000,100000,120000,130000,4.5709,-74.2973,<b>Colombia</b><br/>📤 Exports: 150000<br/>📥 Imports: 100000<br/>📦 Goods: 120000<br/>💼 Services: 130000
+Germany,300000,250000,280000,270000,51.1657,10.4515,<b>Germany</b><br/>📤 Exports: 300000<br/>📥 Imports: 250000<br/>📦 Goods: 280000<br/>💼 Services: 270000
+China,500000,450000,480000,470000,35.8617,104.1954,<b>China</b><br/>📤 Exports: 500000<br/>📥 Imports: 450000<br/>📦 Goods: 480000<br/>💼 Services: 470000
