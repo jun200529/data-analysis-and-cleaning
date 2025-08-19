@@ -201,8 +201,8 @@ elif menu == "Gráficas: comercio":
     # --------------------
     # Sección 1: Preparación y uniones
     # --------------------
-    df_comercio = pd.read_csv(r"C:\Users\youca\OneDrive\Desktop\SQL\Proyecto final\revised_cleaned.csv")
-    df_paises = pd.read_csv(r"C:\Users\youca\OneDrive\Desktop\SQL\Proyecto final\country_classification_cleaned.csv")
+    df_comercio = pd.read_csv("revised_cleaned.csv")
+    df_paises = pd.read_csv("country_classification_cleaned.csv")
     coord_df = pd.read_csv("world_coordinates.csv")
 
     df = df_comercio.merge(df_paises, on="country_code", how="left")
@@ -347,8 +347,8 @@ elif menu == "Machine learning":
     st.title("Predicción de Finalización de Comercio")
 
     # --- Cargar datos base para inputs y país ---
-    df_comercio = pd.read_csv(r"C:\Users\youca\OneDrive\Desktop\SQL\Proyecto final\revised_cleaned.csv")
-    df_paises = pd.read_csv(r"C:\Users\youca\OneDrive\Desktop\SQL\Proyecto final\country_classification_cleaned.csv")
+    df_comercio = pd.read_csv("revised_cleaned.csv")
+    df_paises = pd.read_csv("country_classification_cleaned.csv")
     df = df_comercio.merge(df_paises, on="country_code", how="left")
 
     # --- Entradas para el usuario ---
@@ -454,4 +454,5 @@ elif menu == "Conclusiones":
     Esto nos da una visión de que <b>Nueva Zelanda</b> mantiene relaciones comerciales fuertes con sus vecinos regionales, y aunque sigue dependiendo de bienes físicos, también se abre paso en la <b>exportación de servicios</b>.
     </div>
     """, unsafe_allow_html=True)
+
 
