@@ -4,7 +4,6 @@ streamlit
 matplotlib
 seaborn
 Pillow
-os
-base64
 pydeck
 joblib
+
