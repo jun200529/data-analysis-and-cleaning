@@ -117,8 +117,8 @@ elif menu == "Gráficas: país":
     st.title("Análisis de Clasificación de Países")
 
     # Cargar los datos
-    df_paises = pd.read_csv(r"C:\Users\youca\OneDrive\Desktop\SQL\Proyecto final\country_classification_cleaned.csv")
-    df_comercio = pd.read_csv(r"C:\Users\youca\OneDrive\Desktop\SQL\Proyecto final\revised_cleaned.csv")
+    df_paises = pd.read_csv("country_classification_cleaned.csv")
+    df_comercio = pd.read_csv("revised_cleaned.csv")
 
     
     #  Parte 1: Tabla de países
@@ -454,3 +454,4 @@ elif menu == "Conclusiones":
     Esto nos da una visión de que <b>Nueva Zelanda</b> mantiene relaciones comerciales fuertes con sus vecinos regionales, y aunque sigue dependiendo de bienes físicos, también se abre paso en la <b>exportación de servicios</b>.
     </div>
     """, unsafe_allow_html=True)
+
